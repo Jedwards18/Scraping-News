@@ -1,0 +1,27 @@
+{
+  "name": "scraping-news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jedwards18/Scraping-News.git"
+  },
+  "author": "Jacob Edwards",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jedwards18/Scraping-News/issues"
+  },
+  "homepage": "https://github.com/Jedwards18/Scraping-News#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.2.13",
+    "request": "^2.88.0"
+  }
+}
