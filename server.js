@@ -9,6 +9,10 @@ var mongoose = require("mongoose");
 var axios = require("axios");
 var cheerio = require("cheerio");
 
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/powerful-ridge-99436";
+mongoose.Promise = Promise;
+mongoose.connect(MONGODB_URI);
+
 // Require all models
 var db = require("./models");
 
